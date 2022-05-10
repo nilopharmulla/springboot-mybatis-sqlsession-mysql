@@ -31,9 +31,9 @@ public class MyBatisConfig {
         return sqlSessionFactoryBean.getObject();
     }
 
-   @Primary
+ /*  @Primary
     @Bean(name="primarySqlSession")
     public SqlSessionTemplate primarySqlSessionTemplate(@Qualifier("primarySqlSessionFactory") SqlSessionFactory sqlSessionFactory) {
         return new SqlSessionTemplate(sqlSessionFactory);
-    }
+    }*/
 }

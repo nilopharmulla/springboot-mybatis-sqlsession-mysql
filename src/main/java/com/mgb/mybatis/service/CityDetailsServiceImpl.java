@@ -1,26 +1,30 @@
 package com.mgb.mybatis.service;
 
-import ch.qos.logback.core.CoreConstants;
 import com.mgb.mybatis.entity.City;
-import com.mgb.mybatis.mapper.CityMapper;
-import com.sun.media.jfxmedia.logging.Logger;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-import java.sql.SQLException;
-import java.util.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 
 @Service
+@Slf4j
 public class CityDetailsServiceImpl implements CityDetailsService {
 
     /*  @Autowired
       CityMapper cityMapper;
   */
+    private Logger logger = LoggerFactory.getLogger(CityDetailsServiceImpl.class);
+
     @Autowired
     SqlSessionFactory sqlSessionFactory;
 
@@ -46,8 +50,8 @@ public class CityDetailsServiceImpl implements CityDetailsService {
         List<City> resultMap = null;
         try (SqlSession sqlSession = sqlSessionFactory.openSession()) {
             resultMap = sqlSession.selectList("CityMapper.findByNameAndCountryUsingSession", paramMap);
-            System.out.println("resultMap :" + resultMap);
         } catch (Exception ex) {
+            logger.info("Error on opening sql session" + ex.getMessage());
             System.out.println("Error on opening sql session" + ex.getMessage());
         }
         return new ResponseEntity<>(resultMap, HttpStatus.INTERNAL_SERVER_ERROR);

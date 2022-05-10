@@ -8,6 +8,7 @@ class MybatisDemoApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }
