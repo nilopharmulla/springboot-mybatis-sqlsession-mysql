@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!--<mapper namespace="com.mgb.mybatis.repository.CityDataRepo">-->
+    <mapper namespace="CityMapper">
+        <!--result property should match with pojo class property-->
+        <resultMap id="cityResult" type="com.mgb.mybatis.entity.City">
+            <!--<result property="id" column="id"/>-->
+            <result property="name" column="name"/>
+           <!-- <result property="CountryCode" column="CountryCode"/>-->
+            <result property="District" column="District"/>
+            <result property="Population" column="Population"/>
+        </resultMap>
+
+        <select id="getAllCities" resultType="hashmap" resultMap="cityResult">
+            select * from City order by name limit 10
+        </select>
+
+        <select id="findById" parameterType="int" resultType="com.mgb.mybatis.entity.City">
+            select * from City where id=#{param1}
+        </select>
+
+        <select id="findByNameAndCountry" parameterType="hashmap" resultMap="cityResult">
+            select * from City where countrycode=${countryCode} order by name desc limit 5
+        </select>
+
+        <select id="findByNameAndCountryUsingSession" parameterType="hashmap" resultMap="cityResult">
+            select * from City where countrycode=${countryCode} order by name desc limit 5
+        </select>
+    </mapper>
