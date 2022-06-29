@@ -1,0 +1,15 @@
+Neuroblastoma
+
+Neuroblastoma is a cancer that develops from immature nerve cells, most often found in an embryo or foetus. It usually affects kids under 5 years. Symptoms may include fatigue, loss of appetite and fever. There may be a lump or compression of tissues in the affected area.
+The increased risk of cancer is related to inherited faulty genes, which pass down through the generations. Children with a family history of neuroblastoma may be more likely to develop the disease.
+
+Gene Panel
+Inherited mutations in the following curated genes are associated with an increased risk of neuroblastoma: 
+KIF1B	ALK	PTPN11	BRCA2	TP53	BRCA1	NF1	NF2
+
+References
+1. Yang HW et.al,(2001). Oncogene. 16;20(36):5075-83.
+2. Nakagawara A, et.al,(2018). Jpn J Clin Oncol. 1;48(3):214-241.
+3. Pugh TJ et.al,(2013). Nat Genet. 45(3):279-84.
+4. He J et.al,(2017). Aging. (Albany NY). 9(3):852-859.
+5. Fransson S et.al,(2020). Sci Rep. 10(1):22432.

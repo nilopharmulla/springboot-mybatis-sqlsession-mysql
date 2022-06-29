@@ -1,0 +1,15 @@
+Esophageal cancer
+
+Esophageal cancer begins when the inner lining cells of the esophagus (also called the food pipe) grows in uncontrolled way. Smoking, heavy alcohol consumption, and poorly controlled acid reflux are significant risk factors for oesophageal cancer. Symptoms include trouble swallowing, unintentional weight loss, chest pain, worsening indigestion or heartburn and coughing or hoarseness.
+The increased risk of cancer is related to inherited faulty genes, which pass down through the generations.
+
+Gene Panel
+Inherited mutations in the following curated genes are associated with an increased risk of esophageal cancer: 
+ALDH2	HRAS	RHBDF2	SMAD4	TGFBR2	TP53	WWOX	
+
+References
+1. Kiessling MK et.al,(2015). Oncotarget. 6(39):42183-96.
+2. Li R et.al, (2016). Life Sci. 147:59-66.
+3. Blaydon DC et.al, (2012). Am J Hum Genet. 90(2):340-6.
+4. Ferec C et.al, (1997). Pathol Biol (Paris). 45(10):871-5.
+5. Jin G et.al, (2008) . J Cancer Res Clin Oncol. 134(3):345-51.

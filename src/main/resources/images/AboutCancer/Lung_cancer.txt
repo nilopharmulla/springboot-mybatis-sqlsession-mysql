@@ -1,0 +1,19 @@
+Lung cancer
+
+Lung cancer forms in tissues of the lung, usually in the cells that line the air passages. It is the leading cause of cancer death in both men and women. People who smoke are at a higher risk of lung cancer. Symptoms may include coughing up blood or rust-coloured sputum, shortness of breath, persistent infections such as bronchitis and pneumonia, etc.
+The increased risk of cancer is related to inherited faulty genes, which pass down through the generations. It has been estimated that 8% of lung cancers are linked to a genetic predisposition. Inherited genetic mutations may make you more likely to develop lung cancer, especially if you smoke or are exposed to other carcinogens.
+
+Gene Panel
+Inherited mutations in the following curated genes are associated with an increased risk of lung cancer: 
+ALK	CDKN2A	DNMT3A	FAS	KRAS	NRAS	PTPN11	TP53
+APC	CHEK2	EGFR	FGFR2	MAP2K1	PIK3CA	RAF1	XRCC1
+BRAF	CHRNA3	EPHA2	FGFR3	MARS1	PPP2R1B	RB1	
+BRCA1	CHRNA5	ERCC2	GNAS	MLH1	PRKN	SMAD4	
+CDK4	CREBBP	ERCC6	HRAS	NQO1	PTEN	STK11	
+
+References
+1. Harrison PT et.al,(2020). Semin Cancer Biol. 61:167-179.
+2. Ma H et.al,(2009). Cancer Lett.273(1):172-6.
+3. Manchado E et.al,(2016). Nature. 534(7609):647-51.
+4. Skoulidis F et.al,(2018). Cancer Discov. 8(7):822-835.
+5. Mogi A et.al,(2011). J Biomed Biotechnol. 2011:583929.

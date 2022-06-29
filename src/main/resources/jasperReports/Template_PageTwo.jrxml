@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="PracticeBlank_A4" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="08ff0364-24d0-4ed6-87d1-0bb3da65026e">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<parameter name="backImagePath" class="java.lang.String"/>
+	<parameter name="devLogo" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band height="842" splitType="Stretch">
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+			<image>
+				<reportElement x="0" y="0" width="595" height="842" uuid="de9edc79-b60f-4c3e-a1a5-e6ee0a53f7a7"/>
+				<imageExpression><![CDATA[$P{backImagePath}]]></imageExpression>
+			</image>
+		</band>
+	</background>
+	<title>
+		<band height="8" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="405" splitType="Stretch">
+			<rectangle>
+				<reportElement x="71" y="56" width="474" height="46" uuid="626813da-5734-4c40-8dbc-c8c6d3c353bc"/>
+				<graphicElement>
+					<pen lineWidth="0.0" lineStyle="Solid" lineColor="#003333"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="70" y="329" width="474" height="72" uuid="7c4022a1-0e1b-4ce8-8a57-62488cfe213a">
+					<property name="com.jaspersoft.studio.unit.tabStopWidth" value="px"/>
+					<property name="com.jaspersoft.studio.unit.spacingAfter" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+					<paragraph lineSpacingSize="1.08" spacingAfter="8" tabStopWidth="0"/>
+				</textElement>
+				<text><![CDATA[Note: Neither this report is generated for the diagnostic purpose, nor it reflects your current health status. This report is being provided for educational and informational purpose only]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="70" y="251" width="474" height="70" uuid="40d61d3f-af17-4722-a552-abaf366e45b0">
+					<property name="com.jaspersoft.studio.unit.spacingAfter" value="px"/>
+					<property name="com.jaspersoft.studio.unit.tabStopWidth" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+					<paragraph lineSpacingSize="1.08" spacingAfter="8" tabStopWidth="0"/>
+				</textElement>
+				<text><![CDATA[The genetic analysis in the report is based on Single Nucleotide polymorphism (SNPs) and Insertions/Deletions (INDELs), whose association with different health conditions has been proven by molecular studies and published literature. This report is not diagnostic in nature and cannot be used as confirmation for any clinical conditions. The results in this report are purely for the purpose of preventive health, via genetic screening only.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="70" y="213" width="150" height="38" uuid="120ff64a-cb34-4c03-833a-3bd4279e9049"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Disclaimer/Limitations:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="70" y="123" width="474" height="84" uuid="7965165b-7f86-49f0-9176-a99bc0fcb690">
+					<property name="com.jaspersoft.studio.unit.spacingAfter" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.tabStopWidth" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+					<paragraph lineSpacing="Single" lineSpacingSize="1.08" spacingAfter="8" tabStopWidth="0"/>
+				</textElement>
+				<text><![CDATA[Your DNA report reveals how your genes may make you more susceptible or resistant to the various diseases or common traits. Your results contain information only from your genes and do not include the environmental factors that may affect/improve your overall risk for any disease. This analysis and report were based on scientific studies and publication and is generated using the state of art bioinformatics algorithms to provide accurate results. For more details about the report, kindly connect with your physician or genetic counsellor.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="70" y="56" width="472" height="46" forecolor="#7855BD" uuid="23b8f6ac-2f3b-4d2e-949d-59a4fc9d768b"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Dashed"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="28" isBold="true"/>
+				</textElement>
+				<text><![CDATA[   Disclaimer]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="71" y="67" width="6" height="22" forecolor="#7855BD" backcolor="#7855BD" uuid="289dc314-c1d8-443a-9b4a-1b0b9e153ce2"/>
+			</rectangle>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="44" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<image>
+				<reportElement x="481" y="0" width="75" height="22" uuid="bf28061a-6dbb-42d7-8352-cab8d2f3fbae">
+					<property name="com.jaspersoft.studio.unit.x" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+				</reportElement>
+				<imageExpression><![CDATA[$P{devLogo}]]></imageExpression>
+			</image>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

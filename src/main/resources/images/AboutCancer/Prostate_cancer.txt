@@ -1,0 +1,16 @@
+Prostate cancer
+
+Prostate cancer is a common type of cancer in males, that begins when cells in the prostate gland start to grow out of control. The risk of developing cancer increases with age, especially after 50. Symptoms may include pain or burning during urination, blood in urine or semen, painful ejaculation etc.
+The increased risk of cancer is related to inherited faulty genes, which pass down through the generations. Having a father or brother with prostate cancer more than doubles a man’s risk of developing this disease. Inherited gene changes are thought to play a role in about 10% of prostate cancers.
+
+Gene Panel
+Inherited mutations in the following curated genes are associated with an increased risk of prostate cancer: 
+AR	BRCA2	CHEK2	HOXB13	MAD1L1	NBN	PTEN	TP53
+BRAF	CDH1	ELAC2	HRAS	MSR1	POLK	SMAD4	
+
+References
+1. Mochizuki H et.al,(2015). PLoS One. 10(12):e0144170.
+2. Imtiaz H et.al,(2019). Tumour Biol. 41(3):1010428319830837.
+3. Blee AM et.al,(2018). Clin Cancer Res. 24(18):4551-4565.
+4. Dong X et.al,(2003). Am J Hum Genet. 72(2):270-80.
+5. Hsing AW et.al,(2007). Carcinogenesis. 28(12):2530-6.

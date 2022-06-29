@@ -1,0 +1,15 @@
+Kidney cancer
+
+Kidney cancer, commonly known as renal cell carcinoma, is a disease in which kidney cells become malignant (cancerous) and grow out of control, forming a tumor. Kidney cancer is mainly associated with the smoking, high blood pressure, obesity, etc. Symptoms may include blood in the urine, low back pain on one side, a lump on the side or lower back, etc.
+The increased risk of cancer is related to inherited faulty genes, which pass down through the generations. People who have a strong family history of kidney cancer may have an increased risk of developing the disease.
+
+Gene Panel
+Inherited mutations in the following curated genes are associated with an increased risk of kidney cancer: 
+BRAF	FGFR3	FH	HNF1A	HRAS	OGG1	TP53	
+
+References
+1. Revuelta I, et.al,(2012). Transplantation. 93(5):509-17.
+2. Kim SH, et.al,(2019). Investig Clin Urol. 60(3):148-155.
+3. Tomlinson IP et.al,(2002). Nat Genet. (4):406-10.
+4. Zhao T et.al,(2019). Theranostics. 9(21):6175-6190.
+5. Dizman N, et.al,(2020). Nat Rev Nephrol. 16(8):435-451.

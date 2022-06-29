@@ -1,0 +1,17 @@
+Stomach cancer
+
+Stomach/gastric cancer is characterized by a growth of cancerous cells within the lining of the stomach. Risk factors may include smoking, a diet of highly processed or salty foods and bacterial infections. Symptoms may include feeling bloated after eating, feeling full after eating small amounts of food, nausea, heartburn or indigestion.
+The increased risk of cancer is related to inherited faulty genes, which pass down through the generations. Gastric cancer patients exhibit a 2- to 3-fold higher rate of a family history, suggesting that a family history of gastric cancer is an independent risk factor.
+
+Gene Panel
+Inherited mutations in the following curated genes are associated with an increased risk of stomach cancer: 
+ACVR1	CDH1	FGFR2	IL1B	MAP2K2	MUTYH	PTEN	TP53
+APC	CDKN2A	GNAS	KIT	MLH1	NRAS	RAF1	
+BRAF	CREBBP	HRAS	KRAS	MTHFR	PIK3CA	SMAD4	
+
+References
+1. Yang XZ et.al,(2018). Mol Cancer. 17(1):126.
+2. Hansford S et.al,(2015). JAMA Oncol. 1(1):23-32.
+3. Wu XY et.al,(2016). Am J Cancer Res. 6(9):1935-1948.
+4. Zhang J et.al,(2020). Oncogene. 39(43):6647-6663.
+5. Graziano F et.al,(2020). Cancers (Basel). 12(8):2049.

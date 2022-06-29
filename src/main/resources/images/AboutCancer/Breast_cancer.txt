@@ -1,0 +1,22 @@
+Breast cancer
+
+Breast cancer occurs when some breast cells rapidly grow abnormally and continue to accumulate, forming a lump or mass. Breast cancer affects women and rarely affects men. Breast cancer is mainly associated with the faulty genes, advancing age, being overweight to obese after menopause, etc. Symptoms of breast cancer include a lump in the breast, bloody discharge from the nipple and changes in the shape or texture of the nipple or breast.
+The increased risk of cancer is related to inherited faulty genes, which pass down through the generations. About 5% to 10% of breast cancer cases are thought to be hereditary, meaning that they result directly from gene changes (mutations) passed on from a parent.
+
+Gene Panel
+Inherited mutations in the following curated genes are associated with an increased risk of breast cancer: 
+ABCC1	BRCA1	ERCC4	GALNT12	MSH6	PMS2	RAD51C	TERT
+APC	BRCA2	ERCC8	GNAS	MTOR	POLD1	RAD51D	TGFB1
+AR	BRIP1	ESCO2	HRAS	MUTYH	POLE	RECQL	TINF2
+ATM	CASP8	FAN1	KRAS	NBN	PRC1	RET	TP53
+AXIN2	CASR	FANCC	MC1R	NQO1	PRKDC	SDHB	TSC1
+BARD1	CDH1	FANCE	MLH1	PALB2	PRLR	SLX4	TYR
+BLM	CHEK2	FANCF	MRE11	PIK3CA	PTEN	SMAD4	
+BMPR1A	DICER1	FANCM	MSH2	PMS1	RAD50	STK11	
+
+References
+1. Silwal-Pandit L et.al,(2017). Cold Spring Harb Perspect Med. 7(1):a026252.
+2. Couch FJ et.al,(2017). JAMA Oncol. 3(9):1190-1196.
+3. Alowiri NH et.al,(2019). Asian Pac J Cancer Prev. 20(9):2841-2846.
+4. Narod SA et.al,(2011).  Discov Med. 12(66):445-53.
+5. Jerzak KJ et.al,(2018). Curr Oncol. 25(2):e176-e180.

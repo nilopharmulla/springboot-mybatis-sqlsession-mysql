@@ -1,0 +1,19 @@
+Ovarian cancer
+
+In Ovarian cancer, certain cells in the ovary become abnormal and multiply uncontrollably to form a tumor. Older age, obesity, fertility drugs, family history of ovarian/breast cancer can increase the risk of ovarian cancer. Ovarian cancer symptoms can be non-specific, such as loss of appetite and weight loss, abnormal periods, etc.
+The increased risk of cancer is related to inherited faulty genes, which pass down through the generations. Family history of breast/ovarian cancer and personal history of breast cancer increases the risk of ovarian cancer.
+
+Gene Panel
+Inherited mutations in the following curated genes are associated with an increased risk of ovarian cancer: 
+ABCG2	ATM	BARD1	BLM	BRCA1	BRCA2	BRIP1	CBL
+CDH1	CHEK2	CTNNB1	ERCC8	ESCO2	FAN1	FANCM	HRAS
+MLH1	MRE11	MSH2	MSH6	MUTYH	NBN	NRAS	PALB2
+PIK3CA	PMS1	PMS2	PRKN	PTEN	RAD50	RAD51C	RAD51D
+RECQL	TP53						
+
+References
+1. Martins FC et.al,(2020). Br J Cancer. 123(5):793-802.
+2. Hauke J et.al,(2018). Cancer Med. 7(4):1349-1358.
+3. Fievet A et.al,(2019). Gastroenterology. 156(6):1919-1920. 
+4. Yang X et.al,(2020). J Natl Cancer Inst. 112(12):1242-1250.
+5. Kleiblova P et.al,(2019). Int J Cancer. 145(7):1782-1797.

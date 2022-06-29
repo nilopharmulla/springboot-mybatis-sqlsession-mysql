@@ -1,0 +1,19 @@
+Bladder cancer
+
+Bladder cancer is where the growth of abnormal tissue, known as a tumor, develops in the inner lining of the bladder. Smoking is single biggest risk factor of the bladder cancer. Common symptoms are blood in the urine, pain or burning sensation during urination, etc.
+The increased risk of cancer is related to inherited faulty genes, which pass down through the generations.  People who have family members with bladder cancer have a higher risk of getting it themselves.
+
+Gene Panel
+Inherited mutations in the following curated genes are associated with an increased risk of bladder cancer: 
+ABCG2	ATM	BARD1	BLM	BRCA1	BRCA2	BRIP1	CBL
+CDH1	CHEK2	CTNNB1	ERCC8	ESCO2	FAN1	FANCM	HRAS
+MLH1	MRE11	MSH2	MSH6	MUTYH	NBN	NRAS	PALB2
+PIK3CA	PMS1	PMS2	PRKN	PTEN	RAD50	RAD51C	RAD51D
+RECQL	TP53						
+
+References
+1. Ciccarese C et.al,(2017). Expert Opin Ther Targets. 21(4):401-414.
+2. Hirata H et.al,(2012). Carcinogenesis. 33(1):41-8.
+3. Tsujino T et.al,(2019). Cancer Sci. 110(7):2189-2199.
+4. Boulalas I et.al,(2009). Int J Biol Markers.24(1):17-21.
+5. Zhang X et.al,(2015). Cell Biochem Biophys. 73(1):65-9.

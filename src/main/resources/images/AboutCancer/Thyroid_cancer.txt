@@ -1,0 +1,16 @@
+Thyroid cancer
+
+Thyroid cancer is a solid tumor cancer that usually shows up as a nodule, or mass, in the thyroid gland. This gland produces hormones that regulate your metabolism, help control body temperature, blood pressure and heart rate. Thyroid cancer might not cause any symptoms at first. But as it grows, it can cause pain and swelling in your neck
+The increased risk of cancer is related to inherited faulty genes, which pass down through the generations. A family history of thyroid cancer, goitre or thyroid disease are at a greater risk of developing thyroid cancer.
+
+Gene Panel
+Inherited mutations in the following curated genes are associated with an increased risk of thyroid cancer: 
+BRAF	CDC73	HABP2	HRAS	KRAS	NRAS	NTRK1	RET
+TP53							
+
+References
+1. Chiofalo MG et.al,(2014). Cell Oncol (Dordr). 37(4):281-8.
+2. Zhang T et.al,(2016). J Natl Cancer Inst. 108(6):djv415.
+3. Khan MS et.al,(2015). Cancer Biomark. 15(4):459-65.
+4. Santoro M et.al,(2020). Genes (Basel). 11(4):424. 
+5. Xu Q et.al,(2020). Technol Cancer Res Treat. 19:1533033820940440.

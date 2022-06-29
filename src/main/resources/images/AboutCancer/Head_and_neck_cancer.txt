@@ -1,0 +1,15 @@
+Head and neck cancer
+
+Head and neck cancer is a term used to define cancer that develops in the mouth, throat, nose, salivary glands, oral cancers or other areas of the head and neck. Head and neck cancer is mainly linked to tobacco and alcohol use. Symptoms can occur in mouth, sinuses, nose or throat and include a sore or lump that doesn't heal, a persistent sore throat, trouble swallowing and changes in the voice.
+The increased risk of cancer is related to inherited faulty genes, which pass down through the generations. The individuals with a family history of cancer tend to have a 2–3 times greater risk of developing cancer than those without a family history.
+
+Gene Panel
+Inherited mutations in the following curated genes are associated with an increased risk of head and neck cancer: 
+ALDH2	HRAS	RHBDF2	SMAD4	TGFBR2	TP53	WWOX	
+
+References
+1. Zhou G et.al,(2016). J Cell Biochem. 117(12):2682-2692.
+2. Seiwert TY et.al,(2015). Clin Cancer Res. 21(3):632-41.
+3. Lyu H et.al,(2019). Comput Struct Biotechnol J. 17:1020-1030.
+4. Song Y et.al,(2014). Nature. 509(7498):91-5.
+5. Lechner M et.al,(2018). Oral Oncol. 83:32-37.

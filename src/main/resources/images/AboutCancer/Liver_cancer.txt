@@ -1,0 +1,16 @@
+Liver cancer
+
+Liver cancer can be classified in two ways. Primary liver cancer is one that starts in the tissue of the liver. Secondary liver cancer is cancer that started in some other place in the body and moved to the liver. Certain medical conditions, with the increasing age, such as hepatitis, liver cirrhosis, gallstones, etc. elevate the liver cancer risk. Symptoms may include weight loss, stomach pain, vomiting and yellowed skin.
+The increased risk of cancer is related to inherited faulty genes, which pass down through the generations. People with hepatitis B or hepatitis C infection who also had a family history of liver cancer were at the highest risk of developing liver cancer, especially at a young age.
+
+Gene Panel
+Inherited mutations in the following curated genes are associated with an increased risk of Liver cancer: 
+ABCB11	CDKN2A	CTNNB1	HRAS	NPHP3	PIK3CA	NRAS	APC
+TP53	CREBBP	GNAS	NEK8				
+
+References
+1. Jia D et al.(2018). Cancer discovery. 8(11):1422-37.
+2. Hussain SP et.al,(2007). Oncogene. 26(15):2166-76.
+3. Lee JW et.al,(2005). Oncogene. 24(8):1477-80.
+4. Csepregi A et.al,(2010). BMC cancer. 10(1):1-2.
+5. Monga SP et.al,(2015). Gastroenterology. 148(7):1294-310.

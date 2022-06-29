@@ -1,0 +1,19 @@
+Leukemia
+
+Leukemia generally refers to cancers of the WBCs which primarily hinders the body's ability to fight infection. Smoking, blood disorders, exposure to high radiations, etc. are some of the risk factors for leukemia. Leukaemia may cause symptoms that include fatigue, weight loss, frequent infections and easy bleeding or bruising.
+The increased risk of cancer is related to inherited faulty genes, which pass down through the generations. Having a close family member with leukemia increases the risk of chronic lymphocytic leukemia. Genetic disorders such as down’s syndrome also increase the risk of leukemia.
+
+Gene Panel
+Inherited mutations in the following curated genes are associated with an increased risk of Leukemia: 
+ABL1	APC	ATM	BRAF	BRCA1	BRCA2	CBL	DDX41
+DNMT3A	ERCC2	GATA2	GNB1	HRAS	IDH2	IKZF1	JAK1
+JAK2	JAK3	KIT	KRAS	MIR181A1HG	MYD88	NBN	NF1
+NQO1	NRAS	NSD1	PTEN	PTPN11	RB1	RET	RUNX1
+SETBP1	STK11	TERT	TGM6	TP53	VHL	WT1	
+
+References
+1. Wang S et.al,(2020). Sci Rep. 10(1):12152.
+2. Insuasti-Beltran G et.al,(2015). Arch Pathol Lab Med. 139(8):1035-41.
+3. Mosrati MA et.al,(2015). Oncotarget. 6(28):25109-20.
+4. Ballerini P et.al,(2012). Leukemia. 26(11):2384-9.
+5. Shigemura T et.al,(2019).  Br J Haematol. 187(2):163-173.

@@ -1,0 +1,12 @@
+Gallbladder cancer
+
+Gallbladder cancer occurs when malignant (cancer) cells grow in the gallbladder. Smoking, exposure to chemicals used in the rubber and textile industries, exposure to nitrosamines, gallstones, porcelain gallbladder, gallbladder polyps are some of the risk factors. Symptoms include abdominal pain, bloating, fever, etc.
+The increased risk of cancer is related to inherited faulty genes, which pass down through the generations. A history of gallbladder cancer in the family increases a person’s chances of developing this cancer
+
+Gene Panel
+Inherited mutations in the following curated genes are associated with an increased risk of gallbladder cancer: 
+SMAD4	TP53						
+
+References
+1. Asai T et. al,(2014).  Asian Pac J Cancer Prev. 15(13):5449-54.
+2. Kumar R et.al,(2021). J Biomol Struct Dyn. 39(6):1940-1954.

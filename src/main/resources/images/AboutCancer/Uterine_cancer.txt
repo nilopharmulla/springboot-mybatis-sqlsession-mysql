@@ -1,0 +1,16 @@
+Uterine cancer
+
+Uterine cancer also known as Endometrial cancer is a type of cancer that begins in the cells that form the lining of the uterus. Risk factors include being overweight, starting periods at an early age, having metabolic syndrome and likewise. Symptoms may include vaginal bleeding after menopause, unusual vaginal bleeding, spotting, or other discharge, pelvic pain, etc.
+The increased risk of cancer is related to inherited faulty genes, which pass down through the generations. Women in families with Lynch syndrome, also called hereditary non-polyposis colorectal cancer, have a higher risk for uterine cancer.
+
+Gene Panel
+Inherited mutations in the following curated genes are associated with an increased risk of uterine cancer: 
+BRAF	CREBBP	FGFR2	GNAS	HRAS	MAP2K1	NRAS	PIK3CA
+PPP2R1A	PTEN	SMAD4	TP53				
+
+References
+1. Matanes E et.al,(2021). J Minim Invasive Gynecol. 28(5):947-956.
+2. Lin YC et.al,(2015). Appl Immunohistochem Mol Morphol. 23(7):532-7.
+3. Suhaimi SS et.al,(2018). Front Pharmacol. 9:750.
+4. Kandoth C et.al,(2013). Nature. 497(7447):67-73.
+5. Bell DW et.al,(2019). Annu Rev Pathol. 14:339-367.

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Template_Six" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="5f39ff16-95cc-40f3-a7fd-44f7096cbb4e">
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="cm"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="cm"/>
+	<parameter name="backImagePath" class="java.lang.String"/>
+	<parameter name="devLogo" class="java.lang.String"/>
+	<parameter name="linkedInLink" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="devName" class="java.lang.String"/>
+	<field name="devEdu" class="java.lang.String"/>
+	<field name="devCollege" class="java.lang.String"/>
+	<field name="devInfo" class="java.lang.String"/>
+	<field name="linkedIn" class="java.lang.String"/>
+	<field name="devEmail" class="java.lang.String"/>
+	<background>
+		<band height="842" splitType="Stretch">
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+			<image scaleImage="FillFrame">
+				<reportElement x="0" y="0" width="595" height="842" uuid="5cc9585d-f097-4554-ae60-fb4a04f72d40">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA[$P{backImagePath}]]></imageExpression>
+			</image>
+		</band>
+	</background>
+	<title>
+		<band height="130" splitType="Stretch">
+			<rectangle>
+				<reportElement x="62" y="91" width="6" height="22" forecolor="#7855BD" backcolor="#7855BD" uuid="d25a461e-0d2d-4abb-9407-17369c244b65"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="60" y="81" width="454" height="38" forecolor="#7855BD" uuid="e6913f4c-4bff-4ae8-a44b-395c2fe45e9a"/>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Dashed"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="28" isBold="true"/>
+				</textElement>
+				<text><![CDATA[   About The App Developer]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="351" splitType="Stretch">
+			<rectangle radius="33">
+				<reportElement x="58" y="148" width="449" height="177" forecolor="#000000" backcolor="#F0F0F0" uuid="d961733e-8c7c-49b7-b9a5-ca673c3294f4"/>
+				<graphicElement>
+					<pen lineStyle="Dotted"/>
+				</graphicElement>
+			</rectangle>
+			<image scaleImage="FillFrame">
+				<reportElement x="193" y="27" width="170" height="170" forecolor="#FFFFFF" uuid="aa408110-d0d5-487a-96f2-3593a0dcf708">
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<imageExpression><![CDATA["/src/main/resources/images/DeveloperInfo/images/DHANASHRI.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="90" y="199" width="370" height="22" uuid="d5d66e1f-562b-4632-938c-a86906434081"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="18" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{devName}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="90" y="222" width="370" height="14" uuid="df41a5ff-b4d6-4a57-9135-417989b0b981"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{devEdu}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="90" y="236" width="370" height="16" uuid="a9b97c81-d1c7-4ce1-8002-1f88b8c61705"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{devCollege}]]></textFieldExpression>
+			</textField>
+			<textField hyperlinkType="Reference">
+				<reportElement x="387" y="269" width="72" height="16" forecolor="#6843BF" uuid="187a9fd0-4af8-45b4-8be8-a9715808eb76"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{linkedIn}]]></textFieldExpression>
+				<hyperlinkReferenceExpression><![CDATA[$P{linkedInLink}]]></hyperlinkReferenceExpression>
+			</textField>
+			<textField>
+				<reportElement x="169" y="295" width="291" height="22" forecolor="#6843BF" uuid="5d4fae46-ba0d-4135-92d3-4f94aab18de2"/>
+				<box bottomPadding="0"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{devEmail}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement mode="Transparent" x="30" y="197" width="420" height="143" uuid="e2b8ad43-9f42-47f3-aabb-4ad3708512b0">
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<textField>
+				<reportElement x="70" y="255" width="390" height="30" uuid="bb68ab09-989b-4ecc-bc96-ad0d3f11e0ca"/>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{devInfo}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="275" splitType="Stretch">
+			<image>
+				<reportElement x="90" y="2" width="360" height="218" uuid="ddedb255-1a87-45ec-9e1f-412189ea842a"/>
+				<imageExpression><![CDATA["/src/main/resources/images/BackgroundImages/2_FightAgainstIT.png"]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="497" y="244" width="73" height="31" uuid="b948b5fd-9d5b-41c6-90bc-93d2c87a7a92">
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+				</reportElement>
+				<imageExpression><![CDATA[$P{devLogo}]]></imageExpression>
+			</image>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</band>
+	</summary>
+</jasperReport>

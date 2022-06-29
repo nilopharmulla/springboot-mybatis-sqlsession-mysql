@@ -1,0 +1,16 @@
+Lymphoma
+
+Lymphoma is a cancer of the lymphatic system, which is part of the body's germ-fighting network. There are two types of lymphoma, Hodgkin and Non-Hodgkin. Non-Hodgkin lymphoma, which is the most common type, typically develops from B and T lymphocytes (cells) in the lymph nodes or tissues throughout the body. Symptoms may include enlarged lymph nodes, fatigue, and weight loss.
+The increased risk of cancer is related to inherited faulty genes, which pass down through the generations. Having a family history of lymphoma increases the risk of lymphoma.
+
+Gene Panel
+Inherited mutations in the following curated genes are associated with an increased risk of lymphoma: 
+ABL1	APC	ATM	BRCA1	BRCA2	HAVCR2	JAK1	JAK3
+MYD88	NRAS	PIK3CA	PTPN11	RAD54B	RB1	RET	TP53
+
+References
+1. Ngo VN et.al,(2011). Nature. 470(7332):115-9. 
+2. Hiramoto T et.al,(1999). Oncogene.18(22):3422-6.
+3. Stankovic T et.al,(1998). Am J Hum Genet.62(2):334-45.
+4. Zenz T et.al,(2017). Int J Cancer. 141(7):1381-1388.
+5. Song TL et.al,(2018). Blood.132(11):1146-1158.

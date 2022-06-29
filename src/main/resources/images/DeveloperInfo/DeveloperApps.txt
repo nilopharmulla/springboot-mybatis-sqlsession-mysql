@@ -1,0 +1,59 @@
+#DHANASHRI
+[
+A22051200015=Pancreatic Cancer
+A22051200022=Colorectal Cancer
+A22051200024=Skin Cancer
+A22051600005=Ovarian Cancer
+A22051600007=Prostate Cancer
+ftpId=""
+ftpPwd=""
+]
+#AMIT
+[
+A22051600010=Stomach Cancer
+A22051600013=Leukemia
+ftpId=hb8v59v8nogx0twjul89
+ftpPwd=c1Gcn!wH[31D9n1!U7jD
+]
+#PREETI
+[
+A22051600019=Esophageal Cancer
+A22051600023=Meningioma
+A22051600025=Liver Cancer
+A22051600017=Cervical Cancer
+A22051600009=Gall Baldder
+ftpId=""
+ftpPwd=""
+]
+#NEHA
+[
+A22051100047=Bladder Cancer
+A22051200021=Breast Cancer
+A22051100043=Kidney Cancer
+A22051100045=Lung Cancer
+A22051200019=Uterine Cancer
+ftpId=""
+ftpPwd=""
+]
+#RITESH
+[
+A00000000001=Head and Neck Cancer
+A00000000002=Neuroblastoma
+ftpId=""
+ftpPwd=""
+]
+#ARUN
+[
+A00000000003=Lymphoma
+A00000000004=Thyroid
+ftpId=""
+ftpPwd=""
+]
+
+
+
+
+
+
+
+

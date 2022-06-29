@@ -1,0 +1,20 @@
+Colorectal cancer
+
+Colorectal cancer is the development of cancer from the colon (large intestine) or rectum. Smoking, alcohol use, being overweight and personal history of colorectal polyps are some of the risk factors. Symptoms include changes in bowel habits, changes in stool consistency, blood in the stool and abdominal discomfort.
+The increased risk of cancer is related to inherited faulty genes, which pass down through the generations. A family history of colorectal cancer, colon polyps, bowel diseases and with the increasing age, chances of developing cancer also increase.
+
+Gene Panel
+Inherited mutations in the following curated genes are associated with an increased risk of colorectal cancer: 
+AKAP9	BRAF	CDH1	FLCN	MSH2	PALB2	PPARG	TP53
+APC	BRCA1	CHEK2	FLT1	MSH6	PIK3CA	RAD54B	XRCC2
+AREL1	BRCA2	CTNNB1	FLT4	MT-CO1	PKHD1	RNF43	
+ATM	BRIP1	EP300	MCC	MT-CYB	PMS2	SMAD4	
+AXIN2	BUB1B	EPCAM	MLH1	MUTYH	POLD1	STK11	
+BMPR1A	CCND1	FGFR3	MLH3	NBN	POLE	TGFBR2	
+
+References
+1. Grabsch H et.al,(2006). Clin Cancer Res. 12(5):1494-500.
+2. Win AK et.al,(2014). Gastroenterology. 46(5):1208-11.e1-5.
+3. Yang X et.al,(2020). J Clin Oncol. 38(7):674-685.
+4. Lee SJ et.al,(2014). Ann Surg Oncol. Suppl 4:S634-9.
+5. Villa ALP et.al,(2020). Cta Cir Bras. 35(7):e202000708.

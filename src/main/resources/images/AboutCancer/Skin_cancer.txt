@@ -1,0 +1,18 @@
+Skin cancer
+
+Skin cancer is the abnormal growth of skin cells. Most often develops on skin exposed to the sun. But this common form of cancer can also occur on areas of your skin not ordinarily exposed to sunlight. Symptoms may include scaly itchy patches on skin, irregular bordered moles with unusual colours, etc.
+The increased risk of cancer is related to inherited faulty genes, which pass down through the generations. If you have a family history of melanoma and you also have a lot of unusual moles, you’re at a higher risk for developing this type of cancer.
+
+Gene Panel
+Inherited mutations in the following curated genes are associated with an increased risk of skin cancer: 
+BRAF	CDK4	CDKN2A	CREBBP	GNAS	HRAS	KIT	KLC1
+MAP2K1	MAP2K2	MC1R	MITF	NRAS	PIK3CA	POT1	PTEN
+RAF1	STK11	TP53	TYR				
+
+References
+1. Long GV et.al,(2017). N Engl J Med. 377(19):1813-1823.
+2. Betti M et.al,(2016). Cancer Lett. 378(2):120-30. 
+3. Arnault JP et.al,Clin Cancer Res. 18(1):263-72.
+4. Ben Ayed I et.al,(2019).
+5. J Cutan Pathol. 46(8):591-598.
+ 

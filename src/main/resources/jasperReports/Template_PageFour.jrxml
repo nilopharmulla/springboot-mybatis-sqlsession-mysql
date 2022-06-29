@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Template_PageFourNew" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="b3b6bbbf-5595-4451-a768-b83d8dbbe59a">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="backImagePath" class="java.lang.String"/>
+	<parameter name="riskImagePath" class="java.lang.String"/>
+	<parameter name="devLogo" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="variant_count" class="java.lang.Integer"/>
+	<field name="variant_type" class="java.lang.String"/>
+	<field name="risk" class="java.lang.String"/>
+	<field name="rsID" class="java.lang.String"/>
+	<field name="Gene" class="java.lang.String"/>
+	<field name="Genotype" class="java.lang.String"/>
+	<field name="GeneticAlteration" class="java.lang.String"/>
+	<field name="MutationType" class="java.lang.String"/>
+	<field name="Effect" class="java.lang.String"/>
+	<field name="variantData" class="java.lang.String"/>
+	<background>
+		<band height="842" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<image scaleImage="FillFrame">
+				<reportElement x="0" y="0" width="595" height="842" uuid="3a0e34be-e53f-4311-9c8e-10a6e8b0ed91">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA[$P{backImagePath}]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="497" y="805" width="49" height="22" uuid="a9f1fa02-c1ff-4a67-92ed-a7d852958383">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.x" value="cm"/>
+				</reportElement>
+				<imageExpression><![CDATA[$P{devLogo}]]></imageExpression>
+			</image>
+		</band>
+	</background>
+	<title>
+		<band height="187" splitType="Stretch">
+			<staticText>
+				<reportElement x="75" y="157" width="424" height="30" uuid="e631257b-c799-4856-9242-ed6a7af2d585">
+					<printWhenExpression><![CDATA[$F{variant_count}.intValue()==0]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[The person not having any known cancer markers still have general population risk. Lifestyle, environment, and other factors can also affect your risk.]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="73" y="70" width="6" height="24" forecolor="#7855BD" backcolor="#7855BD" uuid="c83afa66-b967-48a1-9f20-a7139f8eaf1e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="75" y="60" width="446" height="40" forecolor="#7855BD" uuid="4741ff5e-8f5a-4d10-9025-35126cbf98cf">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="1.0" lineStyle="Dashed"/>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="28" isBold="true"/>
+				</textElement>
+				<text><![CDATA[   Understanding Your Result]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="73" y="107" width="408" height="21" uuid="75609ed7-9a7c-4333-8789-97092cd3879a">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{variant_type}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="211" y="134" width="16" height="22" uuid="00f72794-44ec-401e-9e84-595f2d22b3ce">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="18"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{variant_count}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="238" y="135" width="150" height="22" uuid="0afe87f9-9d8e-413c-8ec7-8153ed98c373">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[variant/s detected]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="287" splitType="Stretch">
+			<image>
+				<reportElement x="65" y="6" width="447" height="124" uuid="4de39c0d-5af7-49bf-af22-74fa2821edba">
+					<property name="com.jaspersoft.studio.unit.x" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.y" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+				</reportElement>
+				<imageExpression><![CDATA[$P{riskImagePath}]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement mode="Opaque" x="75" y="136" width="433" height="34" uuid="a8f01a75-c978-4bdb-949b-b91573b20224"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[People with similar genotype have shown                         risk for the development of Skin cancer and associated symptoms]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="64" y="175" width="481" height="20" uuid="f389a17c-f909-43d9-a2d1-8c1ab0966f5e"/>
+				<textElement>
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<text><![CDATA[#The person could still have (additional) variant/s not covered by this test]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="65" y="202" width="464" height="37" uuid="11203d29-7f6b-4b96-8d10-d74fa6619f15">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<text><![CDATA[Note: This is not a diagnostic test and so not to be considered as a purpose of diagnosis of  any disease. This test is meant for only risk assessment based on your genetic makeup. Please consult the physician or dietician for further recommendation.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="57" y="268" width="496" height="19" uuid="b9eddde9-0475-4d39-a1b9-e11c8d0314ba">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Genetic Variant Table]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="34" splitType="Stretch">
+			<staticText>
+				<reportElement mode="Opaque" x="56" y="1" width="78" height="33" forecolor="#FFFFFF" backcolor="#4C279C" uuid="ff09b8ce-652e-4fd5-a9ec-deccaea38499">
+					<property name="com.jaspersoft.studio.unit.x" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Roboto" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[rsID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="135" y="1" width="78" height="33" forecolor="#FFFFFF" backcolor="#4C279C" uuid="95ac5fb3-bb12-402d-b3da-091f6803202b">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.x" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Roboto" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Gene]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="214" y="1" width="78" height="33" forecolor="#FFFFFF" backcolor="#4C279C" uuid="fa64447e-c826-4584-bd5f-61e7a31e460a">
+					<property name="com.jaspersoft.studio.unit.y" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.x" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Roboto" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Genotype]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="293" y="1" width="78" height="33" forecolor="#FFFFFF" backcolor="#4C279C" uuid="251ea510-a1cf-4390-8dc5-1e490d0e75c2">
+					<property name="com.jaspersoft.studio.unit.x" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Roboto" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Genetic Alteration]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="372" y="1" width="78" height="33" forecolor="#FFFFFF" backcolor="#4C279C" uuid="4651323d-95d8-4cc2-8af5-014e92ca0b63">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="cm"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Roboto" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Mutation Type]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="451" y="1" width="78" height="33" forecolor="#FFFFFF" backcolor="#4C279C" uuid="ad013d86-d202-46b2-ac8d-e471ed4f57b5">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Roboto" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Effect]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="32" splitType="Stretch">
+			<textField>
+				<reportElement x="59" y="1" width="75" height="30" uuid="d7ac9390-f9d3-4507-a712-db78819bd1ad">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b0d2b308-0b56-4048-9389-41c7a3922121"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<printWhenExpression><![CDATA[$F{variant_count}.intValue()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{rsID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="137" y="1" width="76" height="30" uuid="96b20a77-539c-477d-8b71-0beec213ef07">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9beb1eab-ac34-441b-ac93-da2a45663300"/>
+					<property name="com.jaspersoft.studio.unit.x" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<printWhenExpression><![CDATA[$F{variant_count}.intValue()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Gene}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="216" y="1" width="76" height="30" uuid="95c6ea09-b341-491e-b4d9-8d766699b19d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="f3bb1b86-c54f-4cff-a38d-e95bf3e7e747"/>
+					<property name="com.jaspersoft.studio.unit.x" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<printWhenExpression><![CDATA[$F{variant_count}.intValue()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Genotype}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="295" y="1" width="75" height="30" uuid="e8a911ff-f7d0-41f2-9fe8-5958a4fa677d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4b505dc0-ca87-4b3b-86ae-ab547b6e358b"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<printWhenExpression><![CDATA[$F{variant_count}.intValue()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{GeneticAlteration}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="373" y="1" width="76" height="30" uuid="9593a8b4-5cdc-43ae-a934-4bf910be2b8d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="30e45131-bcc4-42e8-9157-c70d7d73875f"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<printWhenExpression><![CDATA[$F{variant_count}.intValue()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{MutationType}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="452" y="1" width="78" height="30" uuid="1c893f8f-f130-440f-87e0-d4ba4030c707">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b124289f-e430-42ac-a18d-1c24528c94bb"/>
+					<property name="com.jaspersoft.studio.unit.x" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<printWhenExpression><![CDATA[$F{variant_count}.intValue()>0]]></printWhenExpression>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Effect}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="56" y="31" width="473" height="1" uuid="be5b67ad-d176-497f-91de-cdab08df2eb3">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.05"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="56" y="0" width="1" height="31" uuid="82dcd174-7c14-4a68-b6b1-fe2791a276ed">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.05"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="134" y="0" width="1" height="31" uuid="46516299-e187-445d-b22d-d31463aa5af5">
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					<printWhenExpression><![CDATA[$F{variant_count}.intValue()>0]]></printWhenExpression>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.05"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="213" y="0" width="1" height="31" uuid="0c82244e-3741-43fd-8f66-f7a1c6a9323c">
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					<printWhenExpression><![CDATA[$F{variant_count}.intValue()>0]]></printWhenExpression>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.05"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="292" y="0" width="1" height="31" uuid="f32422f1-9f3d-4411-9edc-2f0b3ea189b4">
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					<printWhenExpression><![CDATA[$F{variant_count}.intValue()>0]]></printWhenExpression>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.05"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="370" y="0" width="1" height="31" uuid="c6834418-be2e-48ed-ab5d-0b9ce707d4cd">
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					<printWhenExpression><![CDATA[$F{variant_count}.intValue()>0]]></printWhenExpression>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.05"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="450" y="0" width="1" height="31" uuid="58556b0d-a122-4d42-b47a-853b7ff6cf27">
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					<printWhenExpression><![CDATA[$F{variant_count}.intValue()>0]]></printWhenExpression>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.05"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="528" y="0" width="1" height="31" uuid="f28ade8f-2158-462d-bb48-dcbb5365d448">
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.05"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement x="57" y="0" width="471" height="30" uuid="1839515b-d7cc-49be-bee4-e3105feb6935">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="8a442023-ae88-41a5-9eb2-ad480ce4e6c1"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<printWhenExpression><![CDATA[$F{variant_count}.intValue()==0?"NA":""]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{variantData}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="240" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="56" y="20" width="135" height="17" uuid="9f2af78b-a478-4405-822f-a905b9504983">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Variant classification]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="56" y="46" width="491" height="19" uuid="558e53b7-428c-4d7e-b92e-e63f2e93d974">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman" size="8"/>
+				</textElement>
+				<text><![CDATA[A formal classification is assigned after the variant has been thoroughly researched and is meant to help answer two questions about the clinical significance of the variant.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="56" y="68" width="491" height="19" uuid="aba0a4d0-1471-40f2-9008-f97c740fad27">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman" size="8"/>
+				</textElement>
+				<text><![CDATA[From a diagnostic perspective: Does this variant, in the correct genetic background, provide an explanation for disease in an affected individual? 
+From a predictive perspective, narrowly applied to highly penetrant conditions: Is an individual who inherits this variant likely to develop disease?
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="56" y="90" width="490" height="11" uuid="c3bfd551-541b-4ff0-9b47-c91affca1cd1">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman" size="8"/>
+				</textElement>
+				<text><![CDATA[The ACMG has recommended a five-tier classification system. According to this system, a variant can be classified as:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="56" y="103" width="465" height="28" uuid="71da827f-e8ad-493c-9ace-f1aecc022189">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman" size="8"/>
+				</textElement>
+				<text><![CDATA[                    This variant directly contributes to the development of disease. Some pathogenic variants may not be fully penetrant. In the case of recessive or X-linked conditions, a single pathogenic variant may not be sufficient to cause disease on its own. Additional evidence is not expected to alter the classification of this variant. ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="56" y="135" width="464" height="28" uuid="877e23ba-e6bd-4f04-9935-65ca994f6a8d"/>
+				<textElement>
+					<font fontName="Times New Roman" size="8"/>
+				</textElement>
+				<text><![CDATA[                               There is a high likelihood (greater than 90% certainty) that this variant is disease-causing. Additional evidence is expected to confirm this assertion of pathogenicity, but there is a small chance that new evidence may demonstrate that this variant does not have clinical significance.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="57" y="169" width="85" height="10" uuid="fbdcf4ef-ca73-4717-838f-7775b8176416">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Uncertain significance:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="135" y="169" width="328" height="10" uuid="9216653b-ac0c-45f2-8d96-d20910ee7a80">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman" size="8"/>
+				</textElement>
+				<text><![CDATA[There is not enough information currently to support a more definitive classification of this variant.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="57" y="135" width="65" height="10" uuid="4b7f1752-995e-4a35-b5a3-7f876ed622fc">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Likely pathogenic:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="56" y="103" width="46" height="10" uuid="9a0d70c9-4116-4646-9a37-d9bb3afa61d5">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Pathogenic:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="56" y="185" width="53" height="10" uuid="deaf9038-8670-4591-84de-59260822bb6f">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Likely benign:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="56" y="185" width="461" height="28" uuid="3312df84-4a18-451f-8f5e-0e6f2a4996a5">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman" size="8"/>
+				</textElement>
+				<text><![CDATA[                         This variant is not expected to have a major effect on disease; however, the scientific evidence is currently insufficient to prove this conclusively. Additional evidence is expected to confirm this assertion, but we cannot fully rule out the possibility that new evidence may demonstrate that this variant can contribute to disease.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="56" y="220" width="481" height="10" uuid="5863a004-f783-4bba-9e0a-84896d0762a4">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman" size="8"/>
+				</textElement>
+				<text><![CDATA[              This variant does not cause disease.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="56" y="220" width="31" height="10" uuid="23655a7d-d842-491e-9fa8-d9109527992f">
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Times New Roman" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Benign:]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>

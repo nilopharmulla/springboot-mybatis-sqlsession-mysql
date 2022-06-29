@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="TemplateBen" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="577bc1a8-e991-4c26-90a0-1c449a197b94">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<parameter name="backImagePath" class="java.lang.String"/>
+	<parameter name="logoPath" class="java.lang.String"/>
+	<parameter name="devLogo" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="report_date" class="java.lang.String"/>
+	<field name="Name" class="java.lang.String"/>
+	<field name="gender" class="java.lang.String"/>
+	<field name="reportID" class="java.lang.String"/>
+	<field name="orderID" class="java.lang.String"/>
+	<background>
+		<band height="842" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<image scaleImage="FillFrame">
+				<reportElement x="0" y="0" width="595" height="842" uuid="c2483328-ff7f-43f7-8992-9a6a010cf84a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA[$P{backImagePath}]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="479" y="790" width="75" height="22" uuid="984479a4-5c5d-44ae-ae74-27ac4432fed2">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.x" value="cm"/>
+				</reportElement>
+				<imageExpression><![CDATA[$P{devLogo}]]></imageExpression>
+			</image>
+		</band>
+	</background>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="170" splitType="Stretch">
+			<staticText>
+				<reportElement x="43" y="47" width="99" height="21" forecolor="#FFFFFF" uuid="d884c879-1201-40b3-ae23-944be97160d2">
+					<property name="com.jaspersoft.studio.unit.x" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.y" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<box topPadding="1" leftPadding="1"/>
+				<textElement textAlignment="Left">
+					<font fontName="Roboto Medium" size="12"/>
+				</textElement>
+				<text><![CDATA[Report Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="43" y="70" width="99" height="21" forecolor="#FFFFFF" uuid="21a9d490-a9eb-4332-9586-a94b07b89c3d">
+					<property name="com.jaspersoft.studio.unit.x" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.y" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+				</reportElement>
+				<textElement textAlignment="Left">
+					<font fontName="Roboto Medium" size="12"/>
+				</textElement>
+				<text><![CDATA[Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="43" y="93" width="99" height="21" forecolor="#FFFFFF" uuid="760fcb0d-be34-43ff-acf8-c38689c21422"/>
+				<textElement textAlignment="Left">
+					<font fontName="Roboto Medium" size="12"/>
+				</textElement>
+				<text><![CDATA[Gender]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="43" y="116" width="99" height="21" forecolor="#FFFFFF" uuid="4d109d05-e640-47d3-b538-b0b9b1dcf470"/>
+				<textElement textAlignment="Left">
+					<font fontName="Roboto Medium" size="12"/>
+				</textElement>
+				<text><![CDATA[Report ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="43" y="139" width="99" height="21" forecolor="#FFFFFF" uuid="06caadcb-37e1-4980-81de-c20ceff10b27"/>
+				<textElement textAlignment="Left">
+					<font fontName="Roboto Medium" size="12"/>
+				</textElement>
+				<text><![CDATA[Order ID]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="144" y="47" width="196" height="21" forecolor="#FFFFFF" uuid="90edb174-56d9-4aff-a528-700475cdacf9">
+					<property name="com.jaspersoft.studio.unit.y" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.x" value="cm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Roboto Medium" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{report_date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="144" y="70" width="196" height="21" forecolor="#FFFFFF" uuid="29c29a61-e325-422e-b399-f72c1e771099"/>
+				<textElement>
+					<font fontName="Roboto Medium" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="144" y="93" width="196" height="21" forecolor="#FFFFFF" uuid="769dd8d9-ad62-4576-af65-516e6988a41c"/>
+				<textElement>
+					<font fontName="Roboto Medium" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{gender}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="144" y="116" width="196" height="21" forecolor="#FFFFFF" uuid="68b9af1b-4358-4c91-9b6d-f1ae39c98e02"/>
+				<textElement>
+					<font fontName="Roboto Medium" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{reportID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="144" y="139" width="196" height="21" forecolor="#FFFFFF" uuid="1a1a1fc8-dc98-4861-a817-bbf5e3da5047">
+					<property name="com.jaspersoft.studio.unit.y" value="cm"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Roboto Medium" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{orderID}]]></textFieldExpression>
+			</textField>
+			<image scaleImage="FillFrame">
+				<reportElement mode="Transparent" x="372" y="26" width="125" height="125" uuid="720870d6-2885-44fe-88f4-87d07c9a9033">
+					<property name="com.jaspersoft.studio.unit.y" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.x" value="cm"/>
+				</reportElement>
+				<box>
+					<pen lineWidth="0.0"/>
+				</box>
+				<imageExpression><![CDATA[$P{logoPath}]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="352" splitType="Stretch">
+			<staticText>
+				<reportElement x="42" y="100" width="473" height="231" forecolor="#FFFFFF" uuid="a737aa88-6641-4980-99da-629fb17b5449">
+					<property name="com.jaspersoft.studio.unit.y" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.height" value="cm"/>
+					<property name="com.jaspersoft.studio.unit.width" value="cm"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Roboto Medium" size="55" isBold="true"/>
+				</textElement>
+				<text><![CDATA[OncoScreen:
+Skin Cancer
+Risk Assessment]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="22" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="41" splitType="Stretch"/>
+	</summary>
+</jasperReport>

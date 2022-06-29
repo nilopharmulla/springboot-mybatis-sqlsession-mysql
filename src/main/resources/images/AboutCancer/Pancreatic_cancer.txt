@@ -1,0 +1,18 @@
+Pancreatic cancer
+
+Pancreatic cancer begins in the cells of the pancreas which is lying behind the lower part of the stomach. Risk factors include tobacco use, being overweight, diabetes, chronic pancreatitis, inherited genetic syndromes, exposure to environmental toxins and cirrhosis. There are no symptoms in the early stages, later stages may include abdominal pain, loss of appetite or unintended weight loss, etc.
+The increased risk of cancer is related to inherited faulty genes, which pass down through the generations. Healthy individuals who come from a family with FPC (Familial pancreatic cancer) are likely to have an increased risk of developing pancreatic cancer in their lifetime.
+
+Gene Panel
+Inherited mutations in the following curated genes are associated with an increased risk of pancreatic cancer: 
+ATM	BARD1	BRCA1	BRCA2	BRIP1	CDKN2A	CFTR	CHEK2
+CTRC	ERCC4	GNAS	HOXB13	HRAS	KRAS	MAP2K2	MEN1
+NEK8	NPHP3	PALB2	PALLD	PRSS1	RBBP8	SMAD4	SPINK1
+STK11	TMEM67	TP53					
+
+References
+1. Armstrong SA et.al,(2019). Mol Cancer Ther. 18(11):1899-1908.
+2. Waters AM et.al,(2018). Cold Spring Harb Perspect Med. 8(9):a031435.
+3. Carter H et.al,(2010). Cancer Biol Ther. 10(6):582-7.
+4. Bailey P et.al,(2016). Nature. 531(7592):47-52.
+5. Grant RC et.al,(2015). Gastroenterology. 148(3):556-64.

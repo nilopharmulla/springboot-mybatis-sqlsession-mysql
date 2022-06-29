@@ -1,9 +1,10 @@
 package com.mgb.mybatis.service;
 
-import com.mgb.mybatis.entity.City;
+import java.util.List;
+
 import org.springframework.http.ResponseEntity;
 
-import java.util.List;
+import com.mgb.mybatis.entity.City;
 
 public interface CityDetailsService {
 
@@ -11,4 +12,6 @@ public interface CityDetailsService {
     public City getCityById(int cityId);
     public List<City> getCityList(String countryCode);*/
     public ResponseEntity<List<City>> getCityListUsingSqlSession(String countryCode);
+    public String getUserUsingDeveloperInfo(String developer);
+    
 }
